@@ -1,0 +1,38 @@
+.clockcontainer{
+			position: relative;
+			margin: auto;
+			height: 40vw;
+			width: 40vw;
+			background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/300px-Horlo%C4%9Do_001.svg.png');
+			background-repeat: no-repeat;
+			background-size: 100%;
+			/*background-attachment: fixed;*/
+		}
+		#hour, #minute, #second{
+			background: black;
+			position: absolute;
+			transform-origin: bottom;
+		}
+		#hour{
+			    height: 22%;
+                width: 0.7%;
+                top: 28%;
+                left: 49.9%;
+                
+                
+		}
+		#minute{
+			    height: 30%;
+			    width: 0.4%;
+                top: 20%;
+                left: 49.9%;
+               
+                
+		}
+		#second{
+			height: 37%;
+			width: 0.2%;
+			top: 13%;
+			left: 49.9%;
+                
+		}
